@@ -16,7 +16,7 @@ Allows for custom rendering of tags.
 ```jsx
 import { Select, Tag } from 'antd';
 
-const options = [{ value: 'gold' }, { value: 'lime' }, { value: 'green' }, { value: 'cyan' }];
+const options = [{ value: 'Sparkle' }, { value: 'Sparkle awesome' }, { value: 'Unicorn' }];
 
 function tagRender(props) {
   const { label, value, closable, onClose } = props;
